@@ -1,7 +1,0 @@
-
-Passos para alocar uma matriz dinâmicamente e desaloca-la:
-
-1. Alocar bytes para o ponteiro principal;
-2. Alocar bytes para cada ponteiro e sua quantidade de indices;
-3. Desalocar cada ponteiro;
-4. Desalocar a ponteiro principal;
