@@ -1,0 +1,11 @@
+
+01. Resumo;
+02. ponteiro, ponteiro de ponteiro;
+03. Alocação estática x Alocação dinâmica;
+04. Funções de alocação dinâmica;
+05. Alocação dinâmica de Matrizes;
+06. Alocação dinâmica de Matrizes;
+07. Funçoes com matrizes e alocação dinâmica;
+08. Exemplo de código;
+09. Exemplo de código;
+10. Erros comuns;   

@@ -1,0 +1,6 @@
+    .: Alocação dinâmica
+
+    1) Declaramos uma variável que irá apontar para o buffer alocado.
+    2) Chamamos uma fução que aloca o espaço desejado.
+    3) Usamos o espaço como um vetor.
+    4) Chamamos uma função que libera o espaço.
