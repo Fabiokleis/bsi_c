@@ -63,3 +63,8 @@ void preencheMatriz(int **mt, int dd){
     printf("\n");
 
 }
+
+int custo_cidades(int *cidades, int n_cidades, int **m){
+
+}
+

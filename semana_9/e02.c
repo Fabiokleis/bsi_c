@@ -8,7 +8,7 @@ typedef struct {
 } Ani;
 
 int main(){
-    int i, n;
+    int i, j, n, k;
     Ani *v;
     printf("numero de aniversariantes: ");
     scanf("%d", &n);
@@ -20,12 +20,13 @@ int main(){
 
     for(i=0; i < n; i++){
         printf("nome, dia e mes: ");
-        scanf("%c %d %d", &v[i].nome, &v[i].dia, &v[i].mes);
+        scanf(" %c %d %d", &v[i].nome, &v[i].dia, &v[i].mes);
     }
 
-    for(i=0; i < n; i++){
-        printf("%c %d %d\n", v[i].nome, v[i].dia, v[i].mes);
+    for(i=0; i < 12; i++){
+        printf("%.2d ", i+1);
     }
+    printf("\n");
     free(v);
     return 0;
 }
