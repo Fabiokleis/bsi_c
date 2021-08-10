@@ -16,6 +16,7 @@ int main(){
     scanf("%d", &seg);
     ret = convert(seg);
     printf("\n%.2d:%.2d:%.2d\n", ret.horas, ret.minutos, ret.segundos);
+    return 0;
 }
 
 Tempo convert(int seg){
